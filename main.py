@@ -25,7 +25,7 @@ elif d.age < 10:
     old = False
 
 if old == True:
-    print(f"dang {d.age} im old!")
+    print(f"dang {d.age} is old!")
 elif old == False:
     print(f"yay {d.age} is young!")
 
