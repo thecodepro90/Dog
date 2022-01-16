@@ -1,14 +1,15 @@
 class Dog_data:
-    def __init__(self, name, age, color, msg, food):
+    def __init__(self, name, age, color, food):
         self.name = name
         self.age = age
         self.color = color
-        self.msg = msg
         self.food = food
 
 
 
-d = Dog_data("name", 1, "color", "msg", "food")
+
+
+d = Dog_data("name", 1, "color", "food")
 
 print("hi im the Virtual_dog what would you like my name to be?")
 var = input("Enter: ")
@@ -27,3 +28,8 @@ if old == True:
     print(f"dang {d.age} im old!")
 elif old == False:
     print(f"yay {d.age} is young!")
+
+print("Now that we're getting somewhere what would you like the color of my fur to be?")
+var2 = input("Enter: ")
+d.color = var2
+print(f"{d.color}, is a nice color!")
