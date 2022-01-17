@@ -1,16 +1,19 @@
 class Dog_data:
-    def __init__(self, name, age, color, food):
+    def __init__(self, name, age, color, dinner, lunch, breakfast):
         self.name = name
         self.age = age
         self.color = color
         self.food = food
+        self.dinner = dinner
+        self.lunch = lunch
+        self.breakfast = breakfast
 
 
 
 
 
-d = Dog_data("name", 1, "color", "food")
 
+d = Dog_data("name", 1, "color", "food", "food", "food")
 print("hi im the Virtual_dog what would you like my name to be?")
 var = input("Enter: ")
 d.name = var
@@ -33,3 +36,9 @@ print("Now that we're getting somewhere what would you like the color of my fur 
 var2 = input("Enter: ")
 d.color = var2
 print(f"{d.color}, is a nice color!")
+print("ok a few more things, what would you like me to eat for dinner?")
+var3 = input("Enter: ")
+d.dinner = var3
+print("What do you want be to eat for lunch?")
+var4 = input("Enter: ")
+d.lunch = var4
