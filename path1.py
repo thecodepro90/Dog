@@ -1,6 +1,3 @@
-from pydoc import TextDoc
-import main
+from main import *
 
-d = main.Dog_data("name", 1, "color", "food", "food", "food")
-
-print(d.get_name)
+d = Dog_data("name", 1, "color", "food", "food", "food")
