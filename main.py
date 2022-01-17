@@ -3,12 +3,12 @@ class Dog_data:
         self.name = name
         self.age = age
         self.color = color
-        self.food = food
         self.dinner = dinner
         self.lunch = lunch
         self.breakfast = breakfast
 
 d = Dog_data("name", 1, "color", "food", "food", "food")
+
 print("hi im the Virtual_dog what would you like my name to be?")
 var = input("Enter: ")
 d.name = var
