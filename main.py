@@ -8,11 +8,6 @@ class Dog_data:
         self.lunch = lunch
         self.breakfast = breakfast
 
-
-
-
-
-
 d = Dog_data("name", 1, "color", "food", "food", "food")
 print("hi im the Virtual_dog what would you like my name to be?")
 var = input("Enter: ")
@@ -42,3 +37,20 @@ d.dinner = var3
 print("What do you want be to eat for lunch?")
 var4 = input("Enter: ")
 d.lunch = var4
+print("What do you want me to eat for breakfast?")
+var5 = input("Enter: ")
+d.breakfast = var5
+print(f"so for dinner ill have {d.dinner} and for lunch ill have {d.lunch} and for breakfast ill have {d.breakfast} ")
+
+print("So what would you like to do now?")
+print("1 - Go for a walk")
+print("2 - Eat Breakfast")
+print("3 - Do nothing")
+var6 = input(int("Enter: "))
+
+if var6 == 1:
+    pass
+if var6 == 2:
+    pass
+if var6 == 3:
+    pass
