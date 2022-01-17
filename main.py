@@ -49,8 +49,11 @@ print("3 - Do nothing")
 var6 = input(int("Enter: "))
 
 if var6 == 1:
-    pass
+    path1()
 if var6 == 2:
     pass
 if var6 == 3:
     pass
+
+
+def path1():
