@@ -1,4 +1,5 @@
 import path1
+
 class Dog_data:
     def __init__(self, name, age, color, dinner, lunch, breakfast):
         self.name = name
@@ -7,11 +8,23 @@ class Dog_data:
         self.dinner = dinner
         self.lunch = lunch
         self.breakfast = breakfast
-    def get_name(self, name):
+    def get_name(self):
         return self.name
 
-    def get_age(self, age):
+    def get_age(self):
+        return self.age
 
+    def get_color(self):
+        return self.color
+
+    def get_dinner(self):
+        return self.dinner
+
+    def get_lunch(self):
+        return self.lunch
+
+    def get_breakfast(self):
+        return self.breakfast
 
 d = Dog_data("name", 1, "color", "food", "food", "food")
 
@@ -50,7 +63,7 @@ print(f"so for dinner ill have {d.dinner} and for lunch ill have {d.lunch} and f
 
 print("So what would you like to do now?")
 print("1 - Go for a walk")
-print("2 - Eat Breakfast")
+print("2 - Eat Food")
 print("3 - Do nothing")
 var6 = input("Enter: ")
 
