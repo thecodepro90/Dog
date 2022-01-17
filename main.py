@@ -1,4 +1,4 @@
-import path1
+from path1 import *
 
 class Dog_data:
     def __init__(self, name, age, color, dinner, lunch, breakfast):
@@ -69,7 +69,3 @@ var6 = input("Enter: ")
 
 if var6 == 1:
     path1()
-if var6 == 2:
-    pass
-if var6 == 3:
-    pass
