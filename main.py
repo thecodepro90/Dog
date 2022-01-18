@@ -1,7 +1,5 @@
 from doginit import *
 from path1 import *
 
+#dog variable initialization
 dogstart()
-
-if var6 == True:
-    walkpath()
