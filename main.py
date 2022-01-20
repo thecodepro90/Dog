@@ -1,2 +1,2 @@
 from dogdata import *
-print(name)
+from walkpath import *
