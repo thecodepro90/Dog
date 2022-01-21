@@ -1,7 +1,9 @@
 from startstory import *
-from dogdata import *
-from walkpath import *
+from data.dogdata import *
+from path.walkpath import *
+from path.eatpath import *
+
 
 print("Started!")
 startdog()
-startstory()
+start_story()

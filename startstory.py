@@ -1,5 +1,5 @@
-from walkpath import *
-from eatpath import *
+from path.walkpath import *
+from path.eatpath import *
 
 def start_story():
     print("Ok now what do you want to do?")

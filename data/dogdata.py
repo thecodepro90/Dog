@@ -1,4 +1,4 @@
-from dogclass import *
+from data.dogclass import *
 
 d = Dog_data("name", 1, "color", "food", "food", "food")
 
