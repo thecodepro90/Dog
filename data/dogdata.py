@@ -7,6 +7,7 @@ def startdog():
     name = input("Enter: ")
     d.name = name
     print(f"{d.name} is a nice name!")
+    print()
     print("What should my age be?")
     age = int(input("Enter: "))
     d.age = age
@@ -14,7 +15,9 @@ def startdog():
         print(f"Dang {d.age} is old!")
     else:
         print(f"Yay {d.age} is young!")
+    print()
     print("What color should my fur be?")
     color = input("Enter: ")
     d.color = color
+    print()
     print(f"{d.color} is a nice color!")

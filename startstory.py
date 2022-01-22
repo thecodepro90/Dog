@@ -8,9 +8,9 @@ def start_story():
     print("3 - do nothing")
     choice1 = input("Enter: ")
 
-    if choice1 == 1:
+    if choice1 == "1":
         walk_path()
-    elif choice1 == 2:
+    elif choice1 == "2":
         eat_path()
-    else:
+    elif choice1 == "3":
         pass
