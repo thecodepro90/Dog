@@ -38,13 +38,12 @@ def bark():
     print("2 - run away")
     choice3 = input("Enter: ")
     if choice3 =="1":
-        ranback = False
         for i in range(4):
             print("BARK")
             print("SCRATCH")
-        ranback = False
+        print()
         print("the dog won in the fight and you died")
-        ranback = False
+        
     elif choice3 =='2':
         print("You ran back home and the dog didnt chase you")
         ranback = True

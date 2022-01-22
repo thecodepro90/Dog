@@ -14,3 +14,4 @@ def start_story():
         eat_path()
     elif choice1 == "3":
         pass
+        

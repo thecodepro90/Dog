@@ -3,7 +3,6 @@ from data.dogdata import *
 
 
 
-
 def tryagain():
     print("Do you want to try again?")
     print("1 - yes")
@@ -12,7 +11,7 @@ def tryagain():
     if choice4 =="1":
         start()
     elif choice4 == "2":
-        pass
+        break
 
 def start():
     print("Started!")
@@ -20,5 +19,3 @@ def start():
     start_story()
 
 start()
-if ranback == False:
-    tryagain()
