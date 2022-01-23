@@ -2,7 +2,7 @@ from startstory import *
 from data.dogdata import *
 
 
-d = Dog_data("name", 1, "color", "food", "food", "food")
+# d = Dog_data("name", 1, "color", "food", "food", "food")
 
 
 def tryagain():
@@ -21,3 +21,4 @@ def start():
     start_story()
 
 start()
+tryagain()

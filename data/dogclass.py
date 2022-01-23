@@ -29,5 +29,5 @@ class Dog_data:
     def get_is_alive(self):
         return self.is_alive
 
-    def set_is_alive(status):
-        self.is_alive = status
+    # def set_is_alive(status):
+    #     self.is_alive = status

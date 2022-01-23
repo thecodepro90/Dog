@@ -1,5 +1,6 @@
 from data.dogclass import *
 
+d = Dog_data("name", 1, "color", "food", "food", "food")
 
 def startdog():
     print("Hi im Virtual dog we're gonna do alot of fun stuff but first what do you want my name to be?")
