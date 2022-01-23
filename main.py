@@ -5,8 +5,8 @@ from data.dogdata import *
 # d = Dog_data("name", 1, "color", "food", "food", "food")
 
 
-def tryagain():
-    print("Do you want to try again?")
+def playagain():
+    print("Do you want to play again?")
     print("1 - yes")
     print("2 - no")
     choice4 = input("Enter: ")
@@ -21,4 +21,4 @@ def start():
     start_story()
 
 start()
-tryagain()
+playagain()

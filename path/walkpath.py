@@ -23,11 +23,7 @@ def bark():
     print("2 - run away")
     choice3 = input("Enter: ")
     if choice3 =="1":
-        for i in range(4):
-            print("BARK")
-            print("SCRATCH")
-        print()
-        print("the dog won in the fight and you died")
+        fight()
 
     elif choice3 =='2':
         print("You ran back home and the dog didnt chase you")
@@ -48,4 +44,3 @@ def fight():
             print("SCRATCH")
         print()
         print("the other dog won and you died")
-        dead = True
