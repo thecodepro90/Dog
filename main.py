@@ -11,7 +11,7 @@ def tryagain():
     if choice4 =="1":
         start()
     elif choice4 == "2":
-        break
+        pass
 
 def start():
     print("Started!")

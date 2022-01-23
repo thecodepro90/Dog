@@ -10,24 +10,9 @@ def walk_path():
         bark()
     elif choice2 =="2":
         print("You ran back home and the dog didnt chase you")
-        ranback = True
 
     elif choice2 =="3":
-        ranvar = random.randint(0,2)
-
-        if ranvar == 1:
-            for i in range(4):
-                print("BARK")
-                print("SCRATCH")
-            print("You won, and killed the dog! and then ran back home")
-            ranback = True
-
-        elif ranvar == 2:
-            for i in range(4):
-                print("BARK")
-                print("SCRATCH")
-            print("the other dog won and you died")
-            ranback = False
+        fight()
 
 def bark():
     for i in range(7):
@@ -43,7 +28,21 @@ def bark():
             print("SCRATCH")
         print()
         print("the dog won in the fight and you died")
-        
+
     elif choice3 =='2':
         print("You ran back home and the dog didnt chase you")
-        ranback = True
+
+def fight():
+    ranvar = random.randint(0,2)
+
+    if ranvar == 1:
+        for i in range(4):
+            print("BARK")
+            print("SCRATCH")
+        print("You won, and killed the dog! and then ran back home")
+
+    elif ranvar == 2:
+        for i in range(4):
+            print("BARK")
+            print("SCRATCH")
+        print("the other dog won and you died")

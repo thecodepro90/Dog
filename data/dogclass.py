@@ -6,6 +6,7 @@ class Dog_data:
         self.dinner = dinner
         self.lunch = lunch
         self.breakfast = breakfast
+        self.is_alive = True
 
     def get_name(self):
         return self.name
@@ -21,6 +22,12 @@ class Dog_data:
 
     def get_lunch(self):
         return self.lunch
-        
+
     def get_breakfast(self):
         return self.breakfast
+
+    def get_is_alive(self):
+        return self.is_alive
+
+    def set_is_alive(status):
+        self.is_alive = status
