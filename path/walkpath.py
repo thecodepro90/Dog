@@ -39,10 +39,13 @@ def fight():
         for i in range(4):
             print("BARK")
             print("SCRATCH")
+        print()
         print("You won, and killed the dog! and then ran back home")
 
     elif ranvar == 2:
         for i in range(4):
             print("BARK")
             print("SCRATCH")
+        print()
         print("the other dog won and you died")
+        dead = True

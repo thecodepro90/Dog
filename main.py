@@ -2,6 +2,8 @@ from startstory import *
 from data.dogdata import *
 
 
+d = Dog_data("name", 1, "color", "food", "food", "food")
+
 
 def tryagain():
     print("Do you want to try again?")
