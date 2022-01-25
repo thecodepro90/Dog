@@ -32,7 +32,7 @@ def dinner():
 
 
     def fastfood():
-        print("What do you want to get from the fast food place?")
+        print("What do you want to get from the dinner fast food place?")
         print("1 - Burger")
         print("2 - Hot dog")
         print("3 - Chicken Nuggets")
@@ -51,7 +51,7 @@ def dinner():
             print("mmm those chicken nuggets were good lets go back home!")
 
     def fancyfood():
-        print("What do you want to get from the fancy food place?")
+        print("What do you want to get from the dinnerfancy food place?")
         print("1 - steak")
         print("2 - salad")
         print("3 - fancy burger")
@@ -78,5 +78,9 @@ def lunch():
     print("3 - lunch fancy food")
     choice10 = input("Enter: ")
     if choice10 =="1":
+        lfastfood()
 
     def lfastfood():
+        print("What do you want from the Lunch fast food place?")
+        print("1 - Burger")
+        print("2 - ")
