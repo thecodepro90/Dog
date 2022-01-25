@@ -8,6 +8,8 @@ def eat_path():
     choice5 = input("Enter: ")
     if choice5 =="1":
         dinner()
+    elif choice5 =="2":
+        lunch()
 
 def dinner():
     typefood = "dinner"
@@ -54,4 +56,27 @@ def dinner():
         print("2 - salad")
         print("3 - fancy burger")
         choice9 = input("Enter: ")
-        i
+        if choice9 =="1":
+            for i in range(4):
+                print("Munch")
+            print("That steak was so exquisite now lets go back home!")
+        elif choice9 =="2":
+            for i in range(4):
+                print("Munch")
+            print("That salad was so exquisite now lets go back home!")
+        elif choice9 =="3":
+            for i in range(4):
+                print("Munch")
+            print("That fancy burger was so exquisite now lets go back home!")
+
+
+def lunch():
+    typefood = "lunch"
+    print(f"Ok where do you want to go for {typefood1}")
+    print("1 - lunch fast food")
+    print("2 - eat from home(Custom food)")
+    print("3 - lunch fancy food")
+    choice10 = input("Enter: ")
+    if choice10 =="1":
+
+    def lfastfood():
